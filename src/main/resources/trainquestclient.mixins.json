@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "info.partonetrain.trainquestclient.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+    "NameTagRenderMixin",
+    "ScoutUtilClientMixin",
+    "ZenithAttributesGuiMixin"
+  ]
+}

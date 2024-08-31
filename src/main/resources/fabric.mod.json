@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "trainquestclient",
+	"version": "${version}",
+	"name": "trainquestclient",
+	"description": "Various clientside patches for TrainQuest",
+	"authors": [
+		"Partonetrain"
+	],
+	"license": "CC0-1.0",
+	"icon": "assets/trainquestclient/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"info.partonetrain.trainquestclient.Trainquestclient"
+		]
+	},
+	"mixins": [
+		"trainquestclient.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+	}
+}
