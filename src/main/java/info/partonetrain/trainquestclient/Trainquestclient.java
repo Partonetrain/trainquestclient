@@ -11,7 +11,6 @@ public class Trainquestclient implements ModInitializer {
 	public static final String MOD_ID = "trainquestclient";
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 	public static boolean attributesGuiOpen = false;
-	public static boolean tradeGuiOpen = false;
 
 	@Override
 	public void onInitialize() {
